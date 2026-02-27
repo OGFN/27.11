@@ -6,10 +6,10 @@ void Runtime::LoadConsole()
 	FILE* File;
 	freopen_s(&File, "CONOUT$", "w", stdout);
 	freopen_s(&File, "CONOUT$", "w", stderr);
-	SetConsoleTitleA("26.30 || Starting...");
+	SetConsoleTitleA("27.11 || Starting...");
 }
 
 void Runtime::LOG(const string& msg)
 {
-	cout << "[*] 26.30 >> " << msg << endl;
+	cout << "[*] 27.11 >> " << msg << endl;
 }
